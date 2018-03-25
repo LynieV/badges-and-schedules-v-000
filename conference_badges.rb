@@ -11,7 +11,7 @@ end
 def assign_rooms(attendees)
   speaker = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   counter = 1
-  attendees.all do |speaker|
+  attendees.all? do |speaker|
   "Hello, #{speaker}! You'll be assigned to room #{counter}!"
   counter += 1
   end
