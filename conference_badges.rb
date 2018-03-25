@@ -16,6 +16,7 @@ end
 
 def printer(attendees)
   attendees.collect {
-  print batch_badge_creator(attendees)
-  print assign_rooms}
+  puts batch_badge_creator(attendees)}
+  attendees.collect {
+  puts assign_rooms(attendees)}
 end
