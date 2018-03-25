@@ -13,4 +13,5 @@ def assign_rooms(attendees)
   counter = 1
   attendees.map {|speaker, i|
   "Hello, #{speaker}! You'll be assigned to room #{i}!"}
+  counter += 1
 end
