@@ -10,9 +10,7 @@ end
 
 def assign_rooms(attendees)
   speaker = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  counter = 1
   attendees.collect {|speaker, i|
-  "Hello, #{speaker}! You'll be assigned to room #{counter}!"}
-  counter += 1
+  "Hello, #{speaker}! You'll be assigned to room #{i}!"}
   end
 end
