@@ -12,5 +12,4 @@ def assign_rooms(attendees)
   speaker = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   attendees.map {|speaker, i|
   "Hello, #{speaker}! You'll be assigned to room #{i}!"}
-  end
 end
