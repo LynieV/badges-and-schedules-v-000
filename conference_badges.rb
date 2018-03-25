@@ -11,5 +11,5 @@ end
 def assign_rooms(attendees)
   speaker = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   attendees.each_with_index.map {|speaker, i|
-  "Hello, #{speaker}! You'll be assigned to room #{i}!"}
+  "Hello, #{speaker}! You'll be assigned to room #{i+1}!"}
 end
